@@ -17,11 +17,11 @@ http://publib.boulder.ibm.com/infocenter/wmbhelp/v6r0m0/index.jsp?topic=/com.ibm
 * There may be a few bugs.
 * It is not currently FPC compatible [Planned]
 * There are some improvements related to socket error handling which I have yet to make inspired by ZiCog's contributions to the original TMQTTClient.
-Note: You should be aware that it uses part of the Synapse Internet Communications Library for its Socket support so you’ll need to ensure that this is available on your search path.
+Note: You should be aware that it uses part of the Synapse Internet Communications Library for its Socket support so youâ€™ll need to ensure that this is available on your search path.
 
 
 ## Usage
-There is a sample VCL project included in the download but usage is relatively simple. This is a non-visual component so all you need to do is to put MQTT.pas and MQTTReadThread.pas  into a directory that is in your compiler paths and then put MQTT in your uses.
+There is a sample VCL project included in the download but usage is relatively simple. This is a non-visual component so all you need to do is to put the TMQTT directory into your compiler paths and then put MQTT in your uses.
 
 ```delphi
 uses MQTT;
@@ -59,4 +59,4 @@ end;
 
 Special thanks for this re-write got to [ZiCog](https://github.com/ZiCog) for his help and improvements to the TMQTTClient library, which helped enormously.
 
-If you are using my TMQTT then I would to love hear about how you’re using it, if you do appreciate it, please let me know!
+If you are using my TMQTT then I would to love hear about how youâ€™re using it, if you do appreciate it, please let me know!
