@@ -7,10 +7,9 @@
 
 TMQTT is a non-visual Delphi Client Library for the IBM Websphere MQ Transport Telemetry protocol ( http://mqtt.org ). It allows you to connect to a Message Broker that uses MQTT such as the [Really Small Message Broker](http://alphaworks.ibm.com/tech/rsmb) which is freely available for evaluation purposes on IBM Alphaworks. Mosquitto is an open source MQTT 3.1 broker ( http://mosquitto.org/ ).
 
-TMQTT is a complete re-write of the original TMQTTClient that I wrote and it is different enough to release in parallel.
+TMQTT is a complete re-write of the original TMQTTClient that I wrote and it is sufficiently different enough to release in parallel.
 
-The Documentation of the MQTT 3.1 protocol can be found here:
-http://publib.boulder.ibm.com/infocenter/wmbhelp/v6r0m0/index.jsp?topic=/com.ibm.etools.mft.doc/ac10840_.htm
+MQTT is an IoT protocol, further information can be found here: http://mqtt.org/
  
 
 ## Points of Note
